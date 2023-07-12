@@ -1,0 +1,63 @@
+#-------------------------------
+# General Site Settings
+
+
+#-------------------------------
+menu:
+- {name: 'Projects', url: ''}
+- {name: 'About',    url: 'about'}
+#- {name: 'Group',  url: 'group'}
+- {name: 'Contact',  url: 'contact'}
+
+#-------------------------------
+# Projects Section
+
+projects:
+- {name: 'ClayCode',   url: 'proj-1'}
+- {name: 'Biochar Molecular Models',   url: 'proj-2'}
+- {name: 'Biosignatures in Space',  url: 'proj-4'}
+- {name: 'Other Codes', url: 'proj-3'}
+#- {name: 'Topics of interest', url: 'proj-5'}
+
+
+#-------------------------------
+# Contact Section
+# social network icons available courtesy of http://fontawesome.io/icons/
+
+social:
+- {icon: 'github',    link: 'https://github.com/Erastova-group'}
+- {icon: 'globe',    link: 'https://erastova.xyz'}
+- {icon: 'twitter',   link: 'https://twitter.com/V_Erastova'}
+- {icon: 'envelope',  link: 'mailto:valentina.erastova@ed.ac.uk'}
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
+
+#-------------------------------
+# SEO Section
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+seo:
+  description: 'Erastova Group GitHub Pages '
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+#google-analytics-ua: 'UA-112060364-3'
+
+#-------------------------------
+# Disqus Section
+
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: ''
+
+
+
+
+

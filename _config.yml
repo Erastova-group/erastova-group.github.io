@@ -1,0 +1,25 @@
+# Site settings
+
+title: Erastova Group GitHub
+description: GitHub portfolio of the projects in the Erastova group
+email: valentina.erastova@ed.ac.uk
+author: Valentina Erastova
+url: https://erastova-group.github.io
+twitter_username: V_Erastova
+github_username:  Erastova-group
+
+
+
+# Build settings
+#theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
