@@ -13,4 +13,4 @@ Please see:
 - Rosie Wood, Ondrej Masek and Valentina Erastova,  Biochars at the molecular level. Part 2 -- Development of realistic molecular models of biochars, [arXiv:2303.09907](https://arxiv.org/abs/2303.09907)
 
 
-{% include image.html url="https://github.com/Erastova-group/Biochar_MolecularModels" image="projects/proj-2/BKPthumbnail.jpg" text='GitHub Repo' %}
+{% include image.html url="https://github.com/Erastova-group/Biochar_MolecularModels" image="projects/proj-2/Button_repo.png" text='...open GitHub Repo' %}
