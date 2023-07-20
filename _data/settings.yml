@@ -1,7 +1,6 @@
 #-------------------------------
 # General Site Settings
 
-
 #-------------------------------
 menu:
 - {name: 'Projects', url: ''}
@@ -36,7 +35,7 @@ social:
 # SEO Section
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 seo:
-  description: 'Erastova Group GitHub Pages '
+  description: 'Erastova Group GitHub Pages'
 
 #-------------------------------
 # Google Analytics Section
