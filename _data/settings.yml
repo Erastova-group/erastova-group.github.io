@@ -12,10 +12,10 @@ menu:
 # Projects Section
 
 projects:
-- {name: 'ClayCode',   url: 'proj-1'}
-- {name: 'Biochar Molecular Models',   url: 'proj-2'}
-- {name: 'Biosignatures in Space',  url: 'proj-4'}
-- {name: 'Other Codes', url: 'proj-3'}
+- {name: 'ClayCode',   url: 'claycode'}
+- {name: 'Biochar Molecular Models',   url: 'biochar'}
+- {name: 'Biosignatures in Space',  url: 'astrobio'}
+- {name: 'Other Codes', url: 'othercodes'}
 #- {name: 'Topics of interest', url: 'proj-5'}
 
 
