@@ -15,16 +15,16 @@
       radial-gradient(circle at top left, rgba(100, 214, 201, 0.18), transparent 26rem),
       linear-gradient(180deg, #0b1b1d 0%, var(--eg-bg) 22rem);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    line-height: 1.5;
+    line-height: 1.38;
   }
 
   .eg-hero {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
-    gap: 1.25rem;
+    gap: 1rem;
     align-items: center;
-    margin: 1rem 0 1.35rem;
-    padding: 1.25rem 1.4rem;
+    margin: 0.75rem 0 1rem;
+    padding: 1rem 1.2rem;
     border: 1px solid var(--eg-border);
     border-radius: 18px;
     background: rgba(16, 31, 33, 0.88);
@@ -32,7 +32,7 @@
   }
 
   .eg-logo {
-    width: min(150px, 28vw);
+    width: min(230px, 36vw);
     height: auto;
     filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.3));
   }
@@ -48,8 +48,8 @@
 
   h1 {
     margin-top: 0;
-    margin-bottom: 0.45rem;
-    font-size: clamp(1.85rem, 4vw, 2.85rem);
+    margin-bottom: 0.35rem;
+    font-size: clamp(1.75rem, 3.8vw, 2.65rem);
     line-height: 1.05;
   }
 
@@ -57,7 +57,7 @@
     margin: 0;
     max-width: 65ch;
     color: var(--eg-muted);
-    font-size: 1rem;
+    font-size: 0.96rem;
   }
 
   .eg-link {
@@ -77,29 +77,27 @@
   }
 
   h2 {
-    margin-top: 1.45rem;
-    margin-bottom: 0.25rem;
+    margin-top: 1rem;
+    margin-bottom: 0.15rem;
     color: var(--eg-teal);
   }
 
   h2 + p {
+    margin-top: 0;
+    margin-bottom: 0.45rem;
     color: var(--eg-muted);
   }
 
   ul {
     display: grid;
-    gap: 0.55rem;
-    margin-top: 0.6rem;
-    padding-left: 0;
-    list-style: none;
+    gap: 0.35rem;
+    margin-top: 0.35rem;
+    padding-left: 1.1rem;
+    list-style: disc;
   }
 
   li {
-    padding: 0.7rem 0.85rem;
-    border: 1px solid var(--eg-border);
-    border-radius: 12px;
-    background: var(--eg-card);
-    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.16);
+    padding: 0;
   }
 
   li a:first-child {
@@ -113,7 +111,7 @@
   }
 
   hr {
-    margin: 1.25rem 0;
+    margin: 0.9rem 0;
     border: 0;
     border-top: 1px solid var(--eg-border);
   }
@@ -126,7 +124,7 @@
 
     .eg-logo {
       order: -1;
-      width: 130px;
+      width: 180px;
     }
   }
 </style>
@@ -138,7 +136,7 @@
     <p class="eg-intro">Welcome to the GitHub page of the Erastova Group. We build and share codes, molecular models, teaching materials, and working resources for molecular modelling of natural minerals and materials.</p>
     <a class="eg-link" href="https://www.erastova.xyz">Visit erastova.xyz</a>
   </div>
-  <img class="eg-logo" src="Logo_B.png" alt="Erastova Group logo">
+  <img class="eg-logo" src="Logo_W.png" alt="Erastova Group logo">
 </section>
 
 ---
