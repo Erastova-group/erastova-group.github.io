@@ -140,7 +140,7 @@
     <p class="eg-intro">Welcome to the GitHub page of the Erastova Group. We build and share codes, molecular models, teaching materials, and working resources for molecular modelling of natural minerals and materials.</p>
     <a class="eg-link" href="https://www.erastova.xyz">Visit erastova.xyz</a>
   </div>
-  <img class="eg-logo" src="Logo_W_transparent.png" alt="Erastova Group logo">
+  <img class="eg-logo" src="Logo_W.png" alt="Erastova Group logo">
 </section>
 
 ---
