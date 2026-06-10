@@ -33,11 +33,15 @@
     box-shadow: 0 18px 46px rgba(0, 0, 0, 0.28);
   }
 
-  .eg-logo {
+  img.eg-logo {
     display: block;
-    width: min(320px, 42vw);
+    width: 180px;
+    max-width: 28vw;
     height: auto;
-    background: transparent;
+    justify-self: end;
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
     filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.45));
   }
 
@@ -120,15 +124,17 @@
     border-top: 1px solid var(--eg-border);
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     .eg-hero {
       grid-template-columns: 1fr;
       padding: 1rem;
     }
 
-    .eg-logo {
+    img.eg-logo {
       order: -1;
-      width: 240px;
+      width: 160px;
+      max-width: 65vw;
+      justify-self: start;
     }
   }
 </style>
@@ -137,13 +143,19 @@
   <div>
     <p class="eg-kicker">School of Chemistry, University of Edinburgh</p>
     <h1>Erastova Group GitHub Resources</h1>
-    <p class="eg-intro">Welcome to the GitHub page of the Erastova Group. We build and share codes, molecular models, teaching materials, and working resources for molecular modelling of natural minerals and materials.</p>
+    <p class="eg-intro">
+      Welcome to the GitHub page of the Erastova Group. We build and share codes,
+      molecular models, teaching materials, and working resources for molecular
+      modelling of natural minerals and materials.
+    </p>
     <a class="eg-link" href="https://www.erastova.xyz">Visit erastova.xyz</a>
   </div>
+
   <img class="eg-logo" src="Logo_W.png" alt="Erastova Group logo">
 </section>
 
 ---
+
 
 ## Codes
 
@@ -151,10 +163,8 @@ Software and scripts developed by the group to support molecular simulation setu
 
 - [DynDen](https://github.com/Erastova-group/DynDen)  
   A software to assess convergence of molecular dynamics simulations of interfacial phenomena.
-
 - [Assemble!](https://github.com/Erastova-group/Assemble)  
   A tool for generating atomistic polymeric mixtures ready for simulation in GROMACS.
-
 - [ClayCode](https://github.com/Erastova-group/ClayCode)  
   A tool to automate the setup of atomistic clay models for classical molecular dynamics simulations with GROMACS.
 
@@ -166,13 +176,10 @@ Repositories supporting the development of molecular models for biochars and the
 
 - [Biochar_MolecularModels](https://github.com/Erastova-group/Biochar_MolecularModels)  
   Molecular models of woody biochars at HTT 400 °C, 600 °C, and 800 °C, together with experimental property datasets.
-
 - [Porous_Biochars_Models](https://github.com/Erastova-group/Porous_Biochars_Models)  
   Porous biochar molecular models created with the virtual atom approach, representative of woody biochars produced at 600–650 °C.
-
 - [Mn_Biochar](https://github.com/Erastova-group/Mn_Biochar)  
   Atomistic models and GROMACS files for Mn(II) interactions with wood- and straw-derived biochars.
-
 - [24D_biochar](https://github.com/Erastova-group/24D_biochar)  
   Molecular dynamics study of 2,4-D adsorption on biochar.
 
@@ -184,7 +191,6 @@ ClayCode is a stand-alone code developed to support the construction of atomisti
 
 - [ClayCode](https://github.com/Erastova-group/ClayCode)  
   Main ClayCode repository.
-
 - [ClayCode Workshop](https://github.com/Erastova-group/ClayCode-workshop)  
   Workshop materials and tutorials for using ClayCode.
 
@@ -196,10 +202,8 @@ Teaching repositories and materials developed by the group. Some of these resour
 
 - [MD Research Techniques](https://github.com/Erastova-group/MD_ResearchTechniques)  
   Materials for the “Introduction to Computational Chemistry Techniques” course at the University of Edinburgh.
-
 - [ClayCode Workshop](https://github.com/Erastova-group/ClayCode-workshop)  
   Workshop materials for learning how to use ClayCode.
-
 - [Data-Driven Chemistry](https://github.com/Edinburgh-Chemistry-Teaching/Data-driven-chemistry)  
   An introductory Python course for undergraduate chemistry students.
 
