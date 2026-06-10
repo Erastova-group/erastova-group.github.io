@@ -1,53 +1,55 @@
 <style>
   :root {
-    --eg-ink: #243034;
-    --eg-muted: #5d6f73;
-    --eg-teal: #24756f;
-    --eg-teal-soft: #e6f3f1;
-    --eg-sand: #faf6ef;
-    --eg-card: #ffffff;
-    --eg-border: #dfe8e6;
+    --eg-ink: #edf7f6;
+    --eg-muted: #a9bfbd;
+    --eg-teal: #64d6c9;
+    --eg-teal-strong: #31b4a7;
+    --eg-bg: #071314;
+    --eg-card: #101f21;
+    --eg-border: #244246;
   }
 
   body {
     color: var(--eg-ink);
     background:
-      radial-gradient(circle at top left, rgba(36, 117, 111, 0.14), transparent 34rem),
-      linear-gradient(180deg, var(--eg-sand) 0%, #ffffff 24rem);
+      radial-gradient(circle at top left, rgba(100, 214, 201, 0.18), transparent 26rem),
+      linear-gradient(180deg, #0b1b1d 0%, var(--eg-bg) 22rem);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    line-height: 1.65;
+    line-height: 1.5;
   }
 
   .eg-hero {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
-    gap: 2rem;
+    gap: 1.25rem;
     align-items: center;
-    margin: 2rem 0 2.25rem;
-    padding: 2rem;
+    margin: 1rem 0 1.35rem;
+    padding: 1.25rem 1.4rem;
     border: 1px solid var(--eg-border);
-    border-radius: 24px;
-    background: rgba(255, 255, 255, 0.86);
-    box-shadow: 0 18px 50px rgba(36, 48, 52, 0.08);
+    border-radius: 18px;
+    background: rgba(16, 31, 33, 0.88);
+    box-shadow: 0 18px 46px rgba(0, 0, 0, 0.28);
   }
 
   .eg-logo {
-    width: min(210px, 34vw);
+    width: min(150px, 28vw);
     height: auto;
+    filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.3));
   }
 
   .eg-kicker {
-    margin: 0 0 0.5rem;
+    margin: 0 0 0.35rem;
     color: var(--eg-teal);
     font-weight: 700;
-    letter-spacing: 0.08em;
+    font-size: 0.78rem;
+    letter-spacing: 0.07em;
     text-transform: uppercase;
   }
 
   h1 {
     margin-top: 0;
-    margin-bottom: 0.75rem;
-    font-size: clamp(2.1rem, 5vw, 3.6rem);
+    margin-bottom: 0.45rem;
+    font-size: clamp(1.85rem, 4vw, 2.85rem);
     line-height: 1.05;
   }
 
@@ -55,27 +57,28 @@
     margin: 0;
     max-width: 65ch;
     color: var(--eg-muted);
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .eg-link {
     display: inline-block;
-    margin-top: 1.25rem;
-    padding: 0.65rem 1rem;
+    margin-top: 0.85rem;
+    padding: 0.48rem 0.78rem;
     border-radius: 999px;
-    background: var(--eg-teal);
-    color: #ffffff;
+    background: var(--eg-teal-strong);
+    color: #061112;
     font-weight: 700;
     text-decoration: none;
   }
 
   .eg-link:hover {
-    background: #195b56;
-    color: #ffffff;
+    background: var(--eg-teal);
+    color: #061112;
   }
 
   h2 {
-    margin-top: 2.25rem;
+    margin-top: 1.45rem;
+    margin-bottom: 0.25rem;
     color: var(--eg-teal);
   }
 
@@ -85,17 +88,18 @@
 
   ul {
     display: grid;
-    gap: 0.85rem;
+    gap: 0.55rem;
+    margin-top: 0.6rem;
     padding-left: 0;
     list-style: none;
   }
 
   li {
-    padding: 1rem 1.1rem;
+    padding: 0.7rem 0.85rem;
     border: 1px solid var(--eg-border);
-    border-radius: 16px;
+    border-radius: 12px;
     background: var(--eg-card);
-    box-shadow: 0 8px 24px rgba(36, 48, 52, 0.05);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.16);
   }
 
   li a:first-child {
@@ -109,7 +113,7 @@
   }
 
   hr {
-    margin: 2rem 0;
+    margin: 1.25rem 0;
     border: 0;
     border-top: 1px solid var(--eg-border);
   }
@@ -117,12 +121,12 @@
   @media (max-width: 700px) {
     .eg-hero {
       grid-template-columns: 1fr;
-      padding: 1.35rem;
+      padding: 1rem;
     }
 
     .eg-logo {
       order: -1;
-      width: 160px;
+      width: 130px;
     }
   }
 </style>
