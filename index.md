@@ -35,8 +35,8 @@
 
   img.eg-logo {
     display: block;
-    width: 180px;
-    max-width: 28vw;
+    width: 280px;
+    max-width: 38vw;
     height: auto;
     justify-self: end;
     background: transparent !important;
@@ -132,8 +132,8 @@
 
     img.eg-logo {
       order: -1;
-      width: 160px;
-      max-width: 65vw;
+      width: 220px;
+      max-width: 75vw;
       justify-self: start;
     }
   }
@@ -155,6 +155,7 @@
 </section>
 
 ---
+
 
 
 ## Codes
