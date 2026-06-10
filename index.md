@@ -1,40 +1,44 @@
 <style>
   :root {
-    --eg-ink: #edf7f6;
-    --eg-muted: #a9bfbd;
-    --eg-teal: #64d6c9;
-    --eg-teal-strong: #31b4a7;
-    --eg-bg: #071314;
-    --eg-card: #101f21;
-    --eg-border: #244246;
+    --eg-ink: #f7f7f2;
+    --eg-muted: #c7ccc9;
+    --eg-teal: #4fd0c2;
+    --eg-blue: #4b7fd8;
+    --eg-violet: #7860c8;
+    --eg-bg: #050607;
+    --eg-panel: #0e1113;
+    --eg-border: #f0f0ea;
   }
 
   body {
     color: var(--eg-ink);
     background:
-      radial-gradient(circle at top left, rgba(100, 214, 201, 0.18), transparent 26rem),
-      linear-gradient(180deg, #0b1b1d 0%, var(--eg-bg) 22rem);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      radial-gradient(circle at 12% 10%, rgba(79, 208, 194, 0.22), transparent 20rem),
+      radial-gradient(circle at 88% 6%, rgba(120, 96, 200, 0.24), transparent 22rem),
+      linear-gradient(135deg, #050607 0%, #111417 52%, #f7f7f2 52.2%, #f7f7f2 53%, #050607 53.2%, #050607 100%);
+    font-family: Helvetica, Arial, sans-serif;
     line-height: 1.38;
   }
 
   .eg-hero {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
-    gap: 1rem;
+    gap: 1.4rem;
     align-items: center;
     margin: 0.75rem 0 1rem;
     padding: 1rem 1.2rem;
-    border: 1px solid var(--eg-border);
+    border: 1px solid rgba(247, 247, 242, 0.72);
     border-radius: 18px;
-    background: rgba(16, 31, 33, 0.88);
+    background: rgba(5, 6, 7, 0.82);
     box-shadow: 0 18px 46px rgba(0, 0, 0, 0.28);
   }
 
   .eg-logo {
-    width: min(230px, 36vw);
+    display: block;
+    width: min(320px, 42vw);
     height: auto;
-    filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.3));
+    background: transparent;
+    filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.45));
   }
 
   .eg-kicker {
@@ -65,15 +69,15 @@
     margin-top: 0.85rem;
     padding: 0.48rem 0.78rem;
     border-radius: 999px;
-    background: var(--eg-teal-strong);
-    color: #061112;
+    background: var(--eg-ink);
+    color: #050607;
     font-weight: 700;
     text-decoration: none;
   }
 
   .eg-link:hover {
     background: var(--eg-teal);
-    color: #061112;
+    color: #050607;
   }
 
   h2 {
@@ -124,7 +128,7 @@
 
     .eg-logo {
       order: -1;
-      width: 180px;
+      width: 240px;
     }
   }
 </style>
