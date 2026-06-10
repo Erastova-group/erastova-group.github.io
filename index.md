@@ -15,7 +15,7 @@ Software and scripts developed by the group to support molecular simulation setu
 - [DynDen](https://github.com/Erastova-group/DynDen)  
   A software to assess convergence of molecular dynamics simulations of interfacial phenomena.
 
-- [Assemble](https://github.com/Erastova-group/Assemble)  
+- [Assemble!](https://github.com/Erastova-group/Assemble)  
   A tool for generating atomistic polymeric mixtures ready for simulation in GROMACS.
 
 - [ClayCode](https://github.com/Erastova-group/ClayCode)  
