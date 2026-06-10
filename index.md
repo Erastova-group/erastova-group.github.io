@@ -15,7 +15,7 @@
     background:
       radial-gradient(circle at 12% 10%, rgba(79, 208, 194, 0.22), transparent 20rem),
       radial-gradient(circle at 88% 6%, rgba(120, 96, 200, 0.24), transparent 22rem),
-      linear-gradient(135deg, #050607 0%, #111417 52%, #f7f7f2 52.2%, #f7f7f2 53%, #050607 53.2%, #050607 100%);
+      linear-gradient(180deg, #0e1113 0%, var(--eg-bg) 28rem);
     font-family: Helvetica, Arial, sans-serif;
     line-height: 1.38;
   }
@@ -140,7 +140,7 @@
     <p class="eg-intro">Welcome to the GitHub page of the Erastova Group. We build and share codes, molecular models, teaching materials, and working resources for molecular modelling of natural minerals and materials.</p>
     <a class="eg-link" href="https://www.erastova.xyz">Visit erastova.xyz</a>
   </div>
-  <img class="eg-logo" src="Logo_W.png" alt="Erastova Group logo">
+  <img class="eg-logo" src="Logo_W_transparent.png" alt="Erastova Group logo">
 </section>
 
 ---
