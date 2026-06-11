@@ -183,6 +183,8 @@ Repositories supporting the development of molecular models for biochars and the
   Atomistic models and GROMACS files for Mn(II) interactions with wood- and straw-derived biochars.
 - [24D_biochar](https://github.com/Erastova-group/24D_biochar)  
   Molecular dynamics study of 2,4-D adsorption on biochar.
+- [Tutorials](https://github.com/Erastova-group/Biochar_Tutorials)  
+  Two tutorials covering the set-up and use of biochar molecular models, described in the works above.
 
 ---
 
@@ -203,10 +205,12 @@ Teaching repositories and materials developed by the group. Some of these resour
 
 - [MD Research Techniques](https://github.com/Erastova-group/MD_ResearchTechniques)  
   Materials for the “Introduction to Computational Chemistry Techniques” course at the University of Edinburgh.
-- [ClayCode Workshop](https://github.com/Erastova-group/ClayCode-workshop)  
-  Workshop materials for learning how to use ClayCode.
 - [Data-Driven Chemistry](https://github.com/Edinburgh-Chemistry-Teaching/Data-driven-chemistry)  
   An introductory Python course for undergraduate chemistry students.
+- [ClayCode Workshop](https://github.com/Erastova-group/ClayCode-workshop)  
+  Workshop materials for learning how to use ClayCode.
+- [Biochar Molecular Models Tutorials](https://github.com/Erastova-group/Biochar_Tutorials)  
+  Guides through set-up of biochar molecular models against experimental data and simulation of adsorption using biochar molecular models.
 
 More teaching materials will be added as they become available.
 
